@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="tests.Order_Test">
+        <methods>
+          <include name="OrderPlaceModifyCancle"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- tests.Order_Test -->
+      <class name="tests.AddFund_Test">
+        <methods>
+          <include name="Setup"/>
+          <include name="AddFundTest"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- tests.AddFund_Test -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
